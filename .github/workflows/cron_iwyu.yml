@@ -5,8 +5,8 @@
 name: IWYU
 
 on:
-  schedule:
-    - cron: "0 4 * * MON"
+  # schedule:
+  #   - cron: "0 4 * * MON"
   workflow_dispatch:
 
 concurrency:
