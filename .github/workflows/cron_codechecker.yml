@@ -5,8 +5,8 @@
 name: CodeChecker
 
 on:
-  schedule:
-    - cron: "0 4 * * THU"
+  # schedule:
+  #   - cron: "0 4 * * THU"
   workflow_dispatch:
 
 env:
